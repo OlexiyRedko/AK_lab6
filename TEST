@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp -f hello.ko /home/oleksii/repos/busybox/_install
+cd /home/oleksii/repos/busybox
+./REPACK
+./RUN
+cd /home/oleksii/Desktop/test2
